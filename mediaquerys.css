@@ -1,0 +1,522 @@
+
+/* AQUÍ VAN TODAS LAS MEDIA QUERYS --> CREADO POR MIGUEL TORRES MARTÍNEZ 2ºB SMR */
+
+@media (width<860px) {
+
+
+   .content{
+
+    height: 65rem;
+
+   }
+
+   section{
+
+    height: 150em;
+
+   }
+
+    aside{
+
+        height: 150em;
+
+    }
+
+
+
+    .perfilProfesional{
+
+   
+        margin-right: 40px;
+        margin-left: 15px;
+        margin-top: 25px;
+        width: auto;
+        height: 25rem;
+        
+    
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: x-large;
+        font-weight: bold;
+        background-color: #FF7F00;
+    
+    }
+    
+
+}
+
+@media  (width<820px) {
+
+    #img-perfil{
+       
+        
+        grid-area: head;
+
+    }
+
+    .nombre{
+
+        grid-area: foot;
+
+    }
+
+    .nombre, #nombreApellido{
+        text-align: center;
+        width: 100%;
+
+    }
+
+    header{
+
+        
+       display: grid;
+
+        justify-items: center;
+
+        grid-template-areas: "head head"
+                             "foot foot";
+    
+    
+        
+    
+    }
+
+   
+    #img-perfil:hover ~ #img-perfil-pro{
+
+
+    
+    visibility: visible;
+    transform: translateX(12px) translateY(-80px);
+    transition: all 10s; 
+    
+    }
+}
+
+@media  (width<1188px){
+
+    #experiencia1{
+
+        height: 15em;
+
+    }
+    
+    #experiencia1:hover{
+
+        height: 20em;
+
+    }
+
+    
+
+
+    #experiencia2{
+
+        height: 15em;
+
+    }
+    
+    #experiencia2:hover{
+
+        height: 20em;
+
+    }
+
+
+
+    #experiencia3{
+
+        height: 15em;
+
+    }
+    
+    #experiencia3:hover{
+
+        height: 20em;
+
+    }
+
+
+
+    .container-button{
+
+        margin-top: 20px;
+
+    }
+    
+}
+
+
+@media (width<761px){
+
+    .perfilProfesional{
+
+        height: 31rem;
+    
+
+    }
+
+    
+}
+
+
+
+
+
+/* TARJETAS FORMACION */
+
+@media (width<1300px){
+
+    .formacion-tarjetas:hover #tarjeta2{
+
+        transform: rotate(0deg) translateX(0px) translateY(300px);
+    
+        
+    }
+
+    .formacion-tarjetas:hover #tarjeta1{
+
+        transform: rotate(0deg) translateX(0px) translateY(600px);
+    
+        
+    }
+
+    .formacion-tarjetas:hover #tarjeta4{
+
+        transform: rotate(0deg) translateX(0px) translateY(900px);
+    
+        
+    } 
+
+
+    .formacion-tarjetas:hover #tarjeta4{
+
+        transform: rotate(0deg) translateX(0px) translateY(900px);
+    
+        
+    } 
+
+    .formacion-tarjetas:hover #tarjeta5{
+
+        transform: rotate(0deg) translateX(0px) translateY(1200px);
+    
+        
+    } 
+
+    .formacion-tarjetas:hover #tarjeta6{
+
+        transform: rotate(0deg) translateX(0px) translateY(1200px);
+    
+        
+    }
+    
+    #tarjeta1:hover{
+
+        width: 300px;
+        height: 400px;
+
+    }
+
+    #tarjeta2:hover{
+
+        width: 300px;
+        height: 400px;
+
+    }
+
+
+    #tarjeta2:hover{
+
+        width: 300px;
+        height: 400px;
+
+    }
+
+
+    #tarjeta3:hover{
+
+        width: 300px;
+        height: 400px;
+
+    }
+
+
+    #tarjeta4:hover{
+
+        width: 300px;
+        height: 400px;
+
+    }
+
+
+    #tarjeta5:hover{
+
+        width: 300px;
+        height: 400px;
+
+    }
+
+    #tarjeta6:hover{
+
+        width: 300px;
+        height: 400px;
+
+    }
+
+
+
+
+    #checkbox{
+
+        visibility: hidden;
+
+    }
+
+    #loading-checkbox img{
+
+        visibility: hidden;
+    }
+
+    .formacion-tarjetas{
+
+        height: 30em;
+
+        transition: all 0.8s;
+
+    }
+
+
+    .formacion-tarjetas:hover{
+       
+        height: 110em;
+
+        
+        
+    } 
+
+   
+    section{
+
+        height: 175em;
+    }
+
+    aside{
+
+        height: 175em;
+    }
+
+
+   
+}
+
+@media (width=1300px) {
+
+    
+    .main-container{
+
+        height: 175em;
+        
+    }
+    
+}
+
+@media (width>1300px) {
+
+    
+    .main-container{
+
+        height: 175em;
+        
+    }
+
+    #github:hover ~ #meme{
+
+        transform: translateX(150px) translateY(-30px) rotate(70deg);
+    
+        transition: all 5s;
+    
+    }
+    
+}
+
+@media  (width<1050px){
+
+    footer{
+
+        grid-template-columns: 1fr;
+        height: 45em;
+
+
+    }
+
+    .Gracias_a{
+
+        visibility: hidden;
+
+    }
+
+   
+  
+   
+
+    #github:hover ~ #meme{
+
+        transform: translateX(229px) translateY(-30px) rotate(70deg);
+    
+      
+        transition: all 3s;
+    
+    }
+    
+}
+
+@media  (width<750px){
+
+
+    #github:hover ~ #meme{
+
+        transform: translateX(250px) translateY(-30px) rotate(70deg);
+    
+      
+        transition: all 3s;
+    
+    }
+    
+}
+
+@media (width<720px) {
+
+    #experiencia1{
+
+        height: 20.2em;
+
+    }
+    
+    #experiencia1:hover{
+
+        height: 25em;
+
+    }
+
+    #experiencia2{
+
+        height: 20.2em;
+
+    }
+    
+    #experiencia2:hover{
+
+        height: 25em;
+
+    }
+
+    #experiencia3{
+
+        height: 20.2em;
+
+    }
+    
+    #experiencia3:hover{
+
+        height: 25em;
+
+    }
+}
+
+
+
+@media (width<700px){
+
+    #experiencia1{
+
+        height: 20em;
+
+    }
+    
+    #experiencia1:hover{
+
+        height: 25em;
+
+    }
+
+    #experiencia2{
+
+        height: 20em;
+
+    }
+    
+    #experiencia2:hover{
+
+        height: 25em;
+
+    }
+
+    #experiencia3{
+
+        height: 20em;
+
+    }
+    
+    #experiencia3:hover{
+
+        height: 25em;
+
+    }
+
+  
+
+    section{ 
+
+        
+        height: 190em;
+
+    }
+
+    aside{ 
+
+        
+        height: 190em;
+
+    }
+
+    footer{
+        margin-top: 200px;
+
+        height: 60em
+
+    }
+}
+
+
+
+@media (width<925px) {
+
+    .perfilProfesional{
+        height: 28rem;
+    }
+
+
+}
+
+
+@media (width<845px) {
+
+    nav{
+        
+        
+        border-radius: 5px;
+       
+        background-color: whitesmoke;
+
+        
+
+
+    }
+
+    
+}
+
+
+
+
+
+
